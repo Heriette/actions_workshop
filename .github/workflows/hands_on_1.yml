@@ -12,4 +12,4 @@ jobs:
 
     - name: Count files ending in .py
       run: |
-        echo "Repository contains $(find . -name '*.py' | wc -l) Python files."
+        echo "The repository contains $(find . -name '*.py' | wc -l) Python files."
