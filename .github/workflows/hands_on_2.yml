@@ -19,5 +19,8 @@ jobs:
       - name: Install dependencies
         run: cd app && pip install -r requirements.txt
 
+      - name: Install linter
+        run: pip install pylint
+
       - name: Run linter
         run: cd app && pylint *.py
